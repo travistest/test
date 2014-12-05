@@ -3,6 +3,6 @@ python:
   - "3.4"
 # command to install dependencies
 install:
-  - pip install pep8 --use-mirrors
+  - "pip install pep8"
 # command to run tests
 script: nosetests
